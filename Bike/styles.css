@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-image:url('./banner-bg.jpg');
+    height: 600px;
+    background-position: revert;
+    background-size: cover;
+}
+
+.top-head{
+    /* background-color: rgba(113, 100, 100, 0.507); */
+    height: 80px;
+}
+
+.ora{
+    height: 280px;
+    /* background-color: aquamarine; */
+}
+
+.myrole{
+    height: 520px;
+    /* background-color:orange; */
+    position: relative;
+    top: 154px;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+
+    .marg{
+        display: flex;
+    }
+
+.myrole  h3{
+    font-size: 70px;
+    font-weight: 800;
+    color: #FA7E1D;
+}
+
+.myrole h5{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+.myrole p{
+    color: white;
+    font-weight: 200;
+}
+
+.buy{
+    height: 50px;
+    width: 40%;
+    background-color: #FA7E1D;
+    color: white;
+    border: 1px solid #FA7E1D;
+
+
+}
+.buy2{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+}
+/* bikey side been trasnferred css */
+.bikey{
+    background-image: url('./bikey.jpg');
+     height: 713px;  
+   background-position: inherit;
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+   bottom: 32px;
+   padding: 13px;
+
+}
+
+
+.bikey li{
+    font-size: 29px;
+    font-weight:800 ;
+    color: #1c6aec;
+
+}
+
+.bikey p{
+    font-size: 29px;
+    font-weight: 800;
+
+}
+
+.myboxwhite{
+    height: 150px;
+    margin-top: 140px;
+    background-color: #d1d1d180;
+    width: 90%;
+}
+
+.myboxwhite p{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 10px;
+
+
+}
+
+.crt{
+    height: 60px;
+    width: 20%;
+    background-color: #326AEC;
+    color: white;
+    border: 1px solid #326AEC;
+    position: relative;
+    top: 130px;
+    right: 60px;
+}
+
+.sect2{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: pink;
+    background-image: url('./contact-bg.jpg');
+
+}
+
+.abt{
+    font-weight: 700;
+    font-family:monospace;
+    font-size: 25px;
+    color:#326AEC;
+}
+
+.aj{
+    font-weight: 700;
+    font-family:monospace;
+    font-size: 25px;
+
+}
+
+.mysecond{
+    height: 500px;
+    background-color: white;
+}
+
+.mysecond h5{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.mysecond h6{
+    font-weight: 300;
+}
+
+footer{
+    height: 300px;
+    background-color:#081148;
+}
+
+.greg{
+color:'';
+}
+
+
+
+
+footer h4 , ul li , p{
+    color: white;
+} 
+
+.jail li:hover{
+    color: #FA7E1D;
+}
+
+
+
+@media (min-width:768px) {
+
+    .ora{
+        height: 180px;
+    }
+    
+
+    .myrole h3{
+        font-size: 30px;
+    }
+
+    .myrole h5{
+        color: white;
+        font-size: 21px;
+        font-weight: 900;
+    }
+
+    .buy{
+        height: 35px;
+    }
+
+    /* .bikey{
+         height:411px; 
+         background-image: url('./bikey.jpg');
+        background-position: inherit;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 32px; 
+    } */
+    .myboxwhite{
+        height: 140px;
+        width: 100%;
+    }
+
+    .greg{
+        height: 67px;
+    }
+
+    /* .myboxwhite p{
+        font-weight: 400;
+        color: black;
+        font-size: 10px;
+        padding: 10px;
+    } */
+
+    .crt{
+        height: 30px;
+        width: 24%;
+        background-color: #1c6aec;
+        color: white;
+        top: -17px;
+        right: 6px;
+        position: relative;
+    }
+
+    .jop{
+        height: 20px;
+    }
+}
